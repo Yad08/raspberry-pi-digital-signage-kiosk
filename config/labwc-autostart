@@ -1,0 +1,10 @@
+sleep 5
+
+"$HOME/screen_state.sh" &
+
+/usr/bin/lwrespawn /usr/bin/feh \
+    -F \
+    -Z \
+    -Y \
+    --auto-zoom \
+    /boot/firmware/kiosk_images/menu.png &
