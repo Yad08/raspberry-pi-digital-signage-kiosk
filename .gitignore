@@ -1,0 +1,30 @@
+# Runtime logs
+*.log
+kiosk.log
+
+# Environment files
+.env
+.env.*
+
+# macOS files
+.DS_Store
+
+# Linux temporary files
+*~
+*.swp
+*.swo
+
+# Editor files
+.vscode/
+.idea/
+
+# Backup files
+*.backup
+*.bak
+
+# Private or production menu assets
+menu.png
+CAFEMEDINAMENU.png
+
+# Temporary files
+*.tmp
