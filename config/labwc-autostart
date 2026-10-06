@@ -1,10 +1,15 @@
-sleep 5
+# Raspberry Pi Digital Signage Kiosk
+#
+# Example crontab entries for display power scheduling.
+#
+# Open the user's crontab with:
+#
+# crontab -e
+#
+# Replace YOUR_USERNAME with the Raspberry Pi kiosk username.
 
-"$HOME/screen_state.sh" &
+# Turn the display on every day at 7:00 AM.
+0 7 * * * /home/YOUR_USERNAME/screen_on.sh
 
-/usr/bin/lwrespawn /usr/bin/feh \
-    -F \
-    -Z \
-    -Y \
-    --auto-zoom \
-    /boot/firmware/kiosk_images/menu.png &
+# Turn the display off every day at 10:00 PM.
+0 22 * * * /home/YOUR_USERNAME/screen_off.sh
