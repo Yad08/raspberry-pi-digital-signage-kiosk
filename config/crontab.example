@@ -1,2 +1,24 @@
-0 7 * * * /home/YOUR_USERNAME/screen_on.sh
-0 22 * * * /home/YOUR_USERNAME/screen_off.sh
+# Raspberry Pi Digital Signage Kiosk
+#
+# Copy this file to:
+#
+# ~/.config/labwc/autostart
+#
+# This waits for the graphical session to initialize,
+# checks whether the display should currently be on or off,
+# and launches the menu image fullscreen.
+
+sleep 5
+
+# Check current business hours and set the correct display state.
+"$HOME/screen_state.sh" &
+
+# Launch the menu image fullscreen.
+# lwrespawn automatically relaunches feh if it exits unexpectedly.
+
+/usr/bin/lwrespawn /usr/bin/feh \
+    -F \
+    -Z \
+    -Y \
+    --auto-zoom \
+    /boot/firmware/kiosk_images/menu.png &
