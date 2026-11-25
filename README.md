@@ -35,7 +35,9 @@ Once that worked, I started adding the functionality I actually needed:
 - automatic recovery if the image viewer closes
 - startup logic that checks whether the restaurant is currently open or closed
 - logging to make future troubleshooting easier
-- 
+
+
+
 What started as “just put the menu on a TV” turned into a small embedded Linux project designed around reliability and unattended operation.
 
 And I am not going to lie — I still think it is really cool that a tiny, inexpensive Raspberry Pi Zero 2 W can handle all of this.
@@ -423,7 +425,7 @@ This project demonstrates experience with:
 
 
 ### Final Installation
-## Coming Soon
+<img width="640" height="375" alt="IMG_1949 2 Medium" src="https://github.com/user-attachments/assets/78ac8846-82a7-465c-a7ad-9ce80d7dc6c4" />
 
 
 ### Raspberry Pi Hardware
@@ -455,9 +457,15 @@ This project demonstrates experience with:
 ### Menu Display
 
 ### Before
-<img width="320" height="158" alt="IMG_9216 Small" src="https://github.com/user-attachments/assets/96f0d651-b10e-452d-9b3d-0466376769ac" />
+<img width="320" height="280" alt="8B712CEC-3639-4C25-9669-578B0144F22B Medium (1)" src="https://github.com/user-attachments/assets/702823aa-0152-4056-8c35-4df222b63d3e" />
 
-### After -    Coming Soon
+<img width="320" height="280" alt="9982DBED-B7EE-4A42-81B3-F06B053A131F Medium (1)" src="https://github.com/user-attachments/assets/6f624b22-3e56-4211-b105-57dc7962e7f9" />
+
+<img width="320" height="240" alt="IMG_9216 Small" src="https://github.com/user-attachments/assets/96f0d651-b10e-452d-9b3d-0466376769ac" />
+
+### After
+<img width="640" height="375" alt="IMG_1949 2 Medium" src="https://github.com/user-attachments/assets/b45739e2-ae0d-4f2c-8b36-20eb8cab7801" />
+
 
 ## Background
 
